@@ -1,0 +1,13 @@
+ td {
+ border: 2px outset #000;
+ border-collapse: collapse;
+ border-radius: 10px;
+ padding-top: 10px;
+ padding-bottom: 20px;
+ padding-left: 30px;
+ padding-right: 40px;
+}
+
+table {
+  border-spacing: 30px 10px;
+}

@@ -1,0 +1,181 @@
+.loyalty-banner {
+  background-image: url(../images/banner_loyalty.png);
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.gray {
+  background-color: gray;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: #fff;
+ 
+}
+
+.gray h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-left: 2em;
+}
+
+.gray p {
+  width: 40%;
+  margin-left: 1.5em;
+  font-size: 1.2rem;
+}
+
+.gray a {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  padding: 1em;
+  margin-left: 4em;
+  border-radius: 15px;
+  margin-bottom: 0.5em;
+}
+
+.gray img {
+  width: 38%;
+  position: absolute;
+  top: 70px;
+  right: 90px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: #000;
+}
+
+.offered-schemes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.scheme img {
+  width: 200px;
+}
+
+.scheme a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  box-shadow: 0 0 20px 2px rgba(13, 27, 42, 0.4);
+  transition: 1s;
+}
+
+.scheme a:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.points-content {
+  background-color: #415a77;
+  margin-top: 2em;
+  padding: 3em;
+  color: #fff;
+}
+
+.points-content p {
+  width: 30%;
+
+}
+
+.benefits {
+  background-color: #000;
+  width: 60%;
+  color: #fff;
+  text-align: center;
+  padding: 2em;
+  margin-left: 420px;
+  margin-top: -150px;
+  height: 200px;
+}
+
+.benefits h3 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.points-benefit {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #fff;
+  margin-left: 450px;
+  margin-top: -190px;
+}
+
+.offer {
+  background-color: lightblue;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: 1em;
+}
+
+.discounts img {
+  width: 80%;
+}
+
+.birthday-gifts img {
+  width: 90%;
+}
+
+.gift-vouchers img {
+  width: 80%;
+
+}
+
+.free-delivery img {
+  width: 80%;
+}
+
+container {  
+  padding: 50px;  
+background-color: lightblue;  
+}  
+
+input[type=text], input[type=password], textarea {  
+width: 100%;  
+padding: 15px;  
+margin: 5px 0 22px 0;  
+display: inline-block;  
+border: none;  
+background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+background-color: orange;  
+outline: none;  
+}  
+div {  
+          padding: 10px 0;  
+       }  
+hr {  
+border: 1px solid #f1f1f1;  
+margin-bottom: 25px;  
+}  
+.registerbtn {  
+background-color: #4CAF50;  
+color: white;  
+padding: 16px 20px;  
+margin: 8px 0;  
+border: none;  
+cursor: pointer;  
+width: 100%;  
+opacity: 0.9;  
+}  
+.registerbtn:hover {  
+opacity: 1;  
+}  
+
+
